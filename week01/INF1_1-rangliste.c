@@ -114,12 +114,12 @@ void teilnehmerSortieren(int size, Teilnehmer a[])
 int teilnehmerLaden(char *filename, Teilnehmer *teilnehmer)
 {
 	FILE *stream;
-	char line[MAX_LEN], *result;
 	stream = fopen(filename, "r");
 
 	if (stream == NULL)
 		return -2;
 
+	char line[MAX_LEN], *result;
 	int teilnehmerIndex = 0;
 
 	while ((result = fgets(line, MAX_LEN, stream)) != NULL)
@@ -129,7 +129,6 @@ int teilnehmerLaden(char *filename, Teilnehmer *teilnehmer)
 		char *name = strtok(result, ",;");
 		char *time = strtok(NULL, ",;");
 
-		int idx;
 		for (int idx = 0; idx < 20; idx++)
 		{
 			tn.name[idx] = name[idx];
