@@ -15,15 +15,15 @@ public class Boerse {
     };
     
     public static double maxDayProfit() {
-        /* TO BE DONE */
+        throw new UnsupportedOperationException();
     }
     
     public static double maxWeekProfit() {
-        /* TO BE DONE */
+        throw new UnsupportedOperationException();
     }
     
     public static double maxTotalProfit() {
-         /* TO BE DONE */        
+        throw new UnsupportedOperationException();
     }
 					
 	public static void main(String[] args) {

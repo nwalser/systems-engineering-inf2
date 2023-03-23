@@ -1,21 +1,23 @@
+import jdk.jshell.spi.ExecutionControl;
+
 import java.util.*;
 
 public class StringUtil {
 
 	public static int countCapitals(String s) {
-        /* TO BE DONE */
+		throw new UnsupportedOperationException();
 	}
 	
 	public static String[] partsTokenizer(String url) {
-        /* TO BE DONE */
+		throw new UnsupportedOperationException();
 	}
 	
 	public static String[] partsSplit(String url) {
-        /* TO BE DONE */
+		throw new UnsupportedOperationException();
 	}
 	
 	public static String[] partsSubstring(String url) {
-        /* TO BE DONE */
+		throw new UnsupportedOperationException();
 	}
 	
     private static void println(String[] s) {
