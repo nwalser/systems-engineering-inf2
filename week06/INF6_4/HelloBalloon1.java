@@ -5,7 +5,7 @@ import javax.swing.*;
 public class HelloBalloon1 extends JFrame implements ActionListener {
     private JButton action;
     private Color color = new Color(0,100,166);
-    private Balloon4[] balloons = new Balloon4 [100];
+    private Balloon4[] balloons = new Balloon4[100];
     private int max = 0;
     public void add(Balloon4 b) {
         balloons [max] = b;
@@ -16,7 +16,7 @@ public class HelloBalloon1 extends JFrame implements ActionListener {
         int my = (int)(Math.random() * 400);
         int mx = (int)(Math.random() * 400);
 
-        Balloon4 balloon = new Balloon4(color, mx, my, radius, max+1);
+        Balloon4 balloon = new Balloon4(color, mx, my, radius);
         add(balloon);
     }
 

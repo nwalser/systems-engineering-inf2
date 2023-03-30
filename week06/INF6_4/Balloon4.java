@@ -4,15 +4,19 @@ public class Balloon4 {	      //Klassenname
     private int diameter;	       //Instanzvariablen
     private int x,y;
     private Color color;
+
+    private static int instanceCount = 0;
     private int counter;
 
     //Konstruktor zur Initialisierung
-    public Balloon4(Color color, int mx, int my, int r, int counter){
+    public Balloon4(Color color, int mx, int my, int r){
         this.x = mx-r;
         this.y = my-r;
         this.diameter = 2*r;
         this.color = color;
-        this.counter = counter;
+
+        instanceCount++;
+        counter = instanceCount;
     }
 
     public void setColor(Color color){
