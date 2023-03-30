@@ -10,6 +10,12 @@ public class HelloBalloon1 extends JFrame implements ActionListener {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
+
+        // this f*cking line needs to be here even though it is not specified in the INF6 pdf.
+        // If its not here unit tests will fail.
+        g.drawString("Hello ZHAW", 0, 0);
+        // end
+
         g.setColor(color);
         g.fillOval(100, 100, 200, 200);
     }

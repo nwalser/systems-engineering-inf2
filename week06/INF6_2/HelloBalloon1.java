@@ -9,6 +9,7 @@ public class HelloBalloon1 extends JFrame implements ActionListener {
     private Color color = new Color(0,100,166);
     private Balloon2 balloon;
 
+    @Override
     public void paint(Graphics g) {
         super.paint(g);
         balloon.draw(g);
