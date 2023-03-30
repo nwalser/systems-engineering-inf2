@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/week04/INF4_1/INF4_1.iml" filepath="$PROJECT_DIR$/week04/INF4_1/INF4_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week04/INF4_2/INF4_2.iml" filepath="$PROJECT_DIR$/week04/INF4_2/INF4_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/systems-engineering-inf2.iml" filepath="$PROJECT_DIR$/.idea/systems-engineering-inf2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week03/week03.iml" filepath="$PROJECT_DIR$/week03/week03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week05/week05.iml" filepath="$PROJECT_DIR$/week05/week05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week06/week06.iml" filepath="$PROJECT_DIR$/week06/week06.iml" />
+    </modules>
+  </component>
+</project>
